@@ -5,4 +5,5 @@ Rails.application.routes.draw do
 	# HTTPメソッド 'URL' => 'コントローラ#アクション' と書く
 	get '/top' => 'root#top'
 
+	post '/posts' => 'posts#create'
 end
